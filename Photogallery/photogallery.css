@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;400&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap");
+body{
+    background-color:#000814;
+}
+img{
+    width: 30%;
+    margin: calc(10%/6);
+}
+nav{
+    border-bottom: 4px solid #84a98c;
+    margin-left: calc(10%/6);
+    width: 28%;
+    padding: 1rem;
+    color: #c2c5aa;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.25;
+    font-family: "Poppins", sans-serif;
+}
+nav:hover{
+    color: #fefae0;
+    border-color: #fee440;
+}
+
+
