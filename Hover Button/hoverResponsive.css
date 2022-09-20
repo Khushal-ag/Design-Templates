@@ -1,0 +1,15 @@
+@media (max-width:770px){
+    .desc{
+        font-size: 2rem;
+    }
+}
+@media (max-width:695px){
+    nav ul{
+        flex-direction: column;
+    }
+}
+@media (max-width:475px){
+    .desc{
+        font-size: 1.8rem;
+    }
+}
