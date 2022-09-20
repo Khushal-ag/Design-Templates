@@ -17,9 +17,10 @@ body {
   transition: 0.25s ease-in;
 }
 .hoverbutton:hover {
+  border-radius: .8rem;
   color: #ffe66d;
   border-color: #ffe66d;
-  background-color: #2a9d8f;
+  background-color: #219ebc;
   transform: translateY(-0.5em);
   cursor: pointer;
   box-shadow: 0 0.5em 0.5em -0.4em #007ea7;
@@ -30,8 +31,33 @@ body {
   font-size: 3rem;
 }
 div {
-  margin-top: 19%;
+  margin-top: 15%;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+nav{
+  margin-top: 2rem;
+  width: 30%;
+}
+li a{
+  padding: 1rem 1.8rem;
+  margin: 1rem .5rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Poiret One", cursive;
+  transition: 0.2s;
+}
+a:hover{
+  text-decoration: underline #2a9d8f;
+  text-decoration-thickness: 3px;
+  background-color: #ffd6ff;
+  border-radius: .8rem;
+}
+nav ul{
+  justify-content: start;
+  list-style: none;
+  display: flex;
 }
