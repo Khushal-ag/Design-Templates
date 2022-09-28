@@ -40,6 +40,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* END */
 
 body{
+  box-sizing: border-box;
   height: 100%;
   background-image: linear-gradient(#a2d2ff,#fb8b24);
 }
@@ -109,6 +110,7 @@ img{
 .blog-heading{
   padding: 5px 10px;
   margin-bottom: 10px;
+  margin-left: 10px;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   font-weight: bold;
@@ -116,6 +118,7 @@ img{
   text-transform: uppercase;
 }
 .blog-sub{
+  margin-left: 10px;
   padding: 5px 10px;
   margin-bottom: 10px;
   font-family: 'Open Sans', sans-serif;
@@ -123,6 +126,7 @@ img{
   text-transform: uppercase;
 }
 .blog-content{
+  margin-left: 10px;
   padding: 5px 10px;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
@@ -131,6 +135,7 @@ img{
   line-height: 30px;
 }
 .button{
+  margin-left: 10px;
   padding: 5px 8px;
   display: flex;
   margin-bottom: 15px;
