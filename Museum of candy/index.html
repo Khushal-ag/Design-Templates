@@ -1,70 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title></title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="cssreset.css">
-    <link rel="stylesheet" href="input.css">
-</head>
-<body>
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 ps-2 fixed-top">
-        <a href="#" class="navbar-brand">CANDY</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-label="Toggler">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navLinks">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">TICKETS</a>
-                </li>
-            </ul>
-        </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssreset.css" />
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 ps-2 fixed-top"
+    >
+      <a href="#" class="navbar-brand">CANDY</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navLinks"
+        aria-label="Toggler"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">TICKETS</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <section class="container-fluid px-0">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
-                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <img class="img-fluid" src="imgs/hand2.png" alt="">
-            </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div
+            id="headingGroup"
+            class="text-white text-center d-none d-lg-block mt-5"
+          >
+            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+            <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+          </div>
         </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="imgs/hand2.png" alt="" />
+        </div>
+      </div>
     </section>
 
     <section class="container-fluid px-0">
-        <div class="row align-items-center content">
-            <div class="col-md-6 order-2 order-md-1">
-                <img src="imgs/milk.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-6 order-1 order-md-2 text-center">
-                <div class="row justify-content-center info">
-                    <div class="col-10 col-lg-8">
-                        <h2>MUSEUM OF CANDY</h2>
-                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eaque iure eum nulla non assumenda. Voluptatibus quas ratione provident, suscipit odit quam, incidunt exercitationem ex tempora eveniet dignissimos, enim iure?</p>
-                    </div>
-                </div>
-            </div>
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <img src="imgs/milk.png" alt="" class="img-fluid" />
         </div>
+        <div class="col-md-6 order-1 order-md-2 text-center">
+          <div class="row justify-content-center info mb-5 mb-md-0">
+            <div class="col-10 col-lg-8">
+              <h2>MUSEUM OF CANDY</h2>
+              <img
+                src="imgs/lolli_icon.png"
+                alt=""
+                class="d-none d-lg-inline"
+              />
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores eaque iure eum nulla non assumenda. Voluptatibus quas
+                ratione provident, suscipit odit quam, incidunt exercitationem
+                ex tempora eveniet dignissimos, enim iure?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center content">
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center info mb-5 mb-md-0">
+            <div class="col-10 col-lg-8">
+              <h2 class="mb-md-2">MUSEUM OF CANDY</h2>
+              <img
+                src="imgs/lolli_icon.png"
+                alt=""
+                class="d-none d-lg-inline"
+              />
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores eaque iure eum nulla non assumenda. Voluptatibus quas
+                ratione provident, suscipit odit quam, incidunt exercitationem
+                ex tempora eveniet dignissimos, enim iure?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="imgs/gumball.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <img src="imgs/sprinkles.png" alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-6 order-1 order-md-2 text-center">
+          <div class="row justify-content-center info mb-5 mb-md-0">
+            <div class="col-10 col-lg-8">
+              <h2>MUSEUM OF CANDY</h2>
+              <img
+                src="imgs/lolli_icon.png"
+                alt=""
+                class="d-none d-lg-inline"
+              />
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores eaque iure eum nulla non assumenda. Voluptatibus quas
+                ratione provident, suscipit odit quam, incidunt exercitationem
+                ex tempora eveniet dignissimos, enim iure?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script>
+      $(function() {
+              $(document).scroll(function() {
+                  var $nav = $("#mainNavbar");
+                  $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+              });
+          });
+    </script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  </body>
 </html>
