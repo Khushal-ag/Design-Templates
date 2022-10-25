@@ -40,13 +40,16 @@ body{
     font-size: 1.5rem;
     line-height: 2;
 }
-.navbar .scrolled{
+.navbar.scrolled{
     background: rgb(222,192,222);
-    transition: 500ms;
+    transition: background 500ms;
 }
 @media (max-width:1220px)
 {
     #headingGroup{
         font-size: 3rem;
+    }
+    .info h2{
+        font-size: 2rem;
     }
 }
